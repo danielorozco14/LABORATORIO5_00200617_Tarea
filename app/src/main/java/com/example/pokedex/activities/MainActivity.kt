@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
 
     fun makeList(outPut: MutableList<Pokemon>) {
 
-        pokemon = MutableList(100) { i ->
+        pokemon = MutableList(300) { i ->
             Pokemon(i.toString(), outPut[i].name, outPut[i].url)
         }
         setUpView(pokemon)
